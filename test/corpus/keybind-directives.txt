@@ -282,11 +282,24 @@ keybind = all:ctrl+shift+a=toggle
 keybind = global:ctrl+shift+a=toggle
 keybind = local:ctrl+shift+a=toggle
 keybind = unconsumed:ctrl+shift+a=toggle
+keybind = performable:ctrl+shift+a=toggle
 keybind = global:unconsumed:ctrl+shift+a=toggle
 
 ---
 
 (document
+ (directive
+  (keybind_directive
+   (property)
+   (keybind_value
+    (keybind_modifier)
+    (keybind_trigger
+     (chord
+      (modifier_key)
+      (modifier_key)
+      (key)))
+    (keybind_action
+     (action_name)))))
  (directive
   (keybind_directive
    (property)
