@@ -152,7 +152,7 @@ module.exports = grammar({
     keybind_modifier: $ => seq(
       field("modifier",
         choice(
-          "all", "global", "local", "unconsumed",
+          "all", "global", "local", "unconsumed", "performable",
         ),
       ),
       token.immediate(":"),

@@ -822,6 +822,10 @@
               {
                 "type": "STRING",
                 "value": "unconsumed"
+              },
+              {
+                "type": "STRING",
+                "value": "performable"
               }
             ]
           }

@@ -402,6 +402,10 @@
             "named": false
           },
           {
+            "type": "performable",
+            "named": false
+          },
+          {
             "type": "unconsumed",
             "named": false
           }
@@ -825,6 +829,10 @@
   {
     "type": "percent_adjustment",
     "named": true
+  },
+  {
+    "type": "performable",
+    "named": false
   },
   {
     "type": "physical",
